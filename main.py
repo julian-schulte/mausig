@@ -15,5 +15,6 @@ def main():
     name = input("Wie ist dein Name?")
     mausigkeit = is_mausig(mausig)
     greet_user(mausigkeit, name)
+
 if __name__ == "__main__":
     main()
